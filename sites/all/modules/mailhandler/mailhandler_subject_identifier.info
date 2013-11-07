@@ -1,0 +1,10 @@
+name = "Mailhandler Subject field of an email for an identifier Plugin"
+description = "Parses ticket ID from subject line for Mailhandler."
+version = "7.x-1.0"
+core = "7.x"
+dependencies[] = "ctools"
+dependencies[] = "feeds"
+dependencies[] = "mailhandler"
+package = "sample"
+
+files[] = mailhandler_subject_identifier.module
